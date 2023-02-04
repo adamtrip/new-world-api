@@ -1,9 +1,9 @@
 ﻿using Finbuckle.MultiTenant;
+using Hangfire;
+using Hangfire.Server;
 using Infrastructure.Auth;
 using Infrastructure.Common;
 using Infrastructure.Multitenancy;
-using Hangfire;
-using Hangfire.Server;
 using Microsoft.Extensions.DependencyInjection;
 using Share.Multitenancy;
 

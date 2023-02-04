@@ -1,7 +1,3 @@
-using Application.Common.Validation;
-using FluentValidation;
-using Mediator;
-
 namespace Application.Multitenancy;
 
 public class UpgradeSubscriptionRequest : IRequest<string>

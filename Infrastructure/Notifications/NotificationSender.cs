@@ -1,8 +1,8 @@
-﻿using Finbuckle.MultiTenant;
-using Application.Common.Interfaces;
+﻿using Application.Common.Interfaces;
+using Finbuckle.MultiTenant;
 using Microsoft.AspNetCore.SignalR;
-using static Share.Notifications.NotificationConstants;
 using Share.Notifications;
+using static Share.Notifications.NotificationConstants;
 
 namespace Infrastructure.Notifications;
 

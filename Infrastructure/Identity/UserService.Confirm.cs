@@ -1,9 +1,9 @@
-using System.Text;
 using Application.Common.Exceptions;
 using Infrastructure.Common;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.EntityFrameworkCore;
 using Share.Multitenancy;
+using System.Text;
 
 namespace Infrastructure.Identity;
 

@@ -1,7 +1,6 @@
 ﻿using Application.Common.Exceptions;
 using Application.Common.Mailing;
 using Application.Identity.Users.Password;
-using Microsoft.AspNetCore.WebUtilities;
 
 namespace Infrastructure.Identity;
 

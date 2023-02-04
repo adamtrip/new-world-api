@@ -3,12 +3,6 @@ using Application.NewWorld.PerkBucketData;
 using Application.NewWorld.PerkData;
 using Application.NewWorld.WeaponItemDefs;
 using Domain.Entities.NewWorld;
-using Domain.Entities.NewWorld.PerkData;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.NewWorld.MasterItemDefinitions
 {
@@ -30,7 +24,7 @@ namespace Application.NewWorld.MasterItemDefinitions
         public async ValueTask<MasterItemDefinitionDto> Handle(GetMasterItemDefinitionRequest request, CancellationToken cancellationToken)
         {
             var cachedItem = cacheService.Get<MasterItemDefinitionDto>(request.MasterItemId.ToString());
-            if(cachedItem != null)
+            if (cachedItem != null)
                 return cachedItem;
             else
             {

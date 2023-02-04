@@ -1,7 +1,6 @@
-﻿using System.Security.Claims;
-using Finbuckle.MultiTenant;
-using Application.Common.Exceptions;
+﻿using Application.Common.Exceptions;
 using Application.Identity.Users;
+using Finbuckle.MultiTenant;
 using Infrastructure.Multitenancy;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -11,6 +10,7 @@ using Microsoft.Identity.Web;
 using Serilog;
 using Share.Authorization;
 using Share.Multitenancy;
+using System.Security.Claims;
 
 namespace Infrastructure.Auth.AzureAd;
 

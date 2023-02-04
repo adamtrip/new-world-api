@@ -1,8 +1,4 @@
-﻿using Application.Common.Validation;
-using FluentValidation;
-using Mediator;
-
-namespace Application.Multitenancy;
+﻿namespace Application.Multitenancy;
 
 public class GetTenantRequest : IRequest<TenantDto>
 {

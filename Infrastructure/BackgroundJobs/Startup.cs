@@ -1,12 +1,12 @@
-using Infrastructure.Common;
 using Hangfire;
 using Hangfire.Console;
 using Hangfire.Console.Extensions;
 using Hangfire.MySql;
 using Hangfire.PostgreSql;
+using Hangfire.SQLite;
 using Hangfire.SqlServer;
 using HangfireBasicAuthenticationFilter;
-using Hangfire.SQLite;
+using Infrastructure.Common;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

@@ -1,6 +1,3 @@
-using Application.Common.Validation;
-using FluentValidation;
-
 namespace Application.Multitenancy;
 
 public class CreateTenantRequestValidator : CustomValidator<CreateTenantRequest>

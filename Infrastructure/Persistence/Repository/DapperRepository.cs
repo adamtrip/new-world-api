@@ -1,9 +1,9 @@
-using System.Data;
-using Dapper;
-using Finbuckle.MultiTenant.EntityFrameworkCore;
 using Application.Common.Persistence;
+using Dapper;
 using Domain.Common.Contracts;
+using Finbuckle.MultiTenant.EntityFrameworkCore;
 using Infrastructure.Persistence.Context;
+using System.Data;
 
 namespace Infrastructure.Persistence.Repository;
 

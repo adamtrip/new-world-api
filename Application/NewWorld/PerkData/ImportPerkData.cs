@@ -1,13 +1,7 @@
 ﻿using Application.Common.Reflection;
 using Application.NewWorld.Locale;
 using Domain.Entities.NewWorld;
-using Domain.Entities.NewWorld.ConsumableItemDefinitions;
 using Domain.Entities.NewWorld.PerkData;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.NewWorld.PerkData
 {

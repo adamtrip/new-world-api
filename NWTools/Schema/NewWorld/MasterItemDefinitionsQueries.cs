@@ -1,10 +1,7 @@
 ﻿using Application.NewWorld.MasterItemDefinitions;
-using DocumentFormat.OpenXml.Spreadsheet;
 using HotChocolate.AspNetCore.Authorization;
 using HotChocolate.Types.Pagination;
-using Infrastructure.Auth.Permissions;
 using Mediator;
-using System.Threading;
 
 namespace NWTools.Schema.NewWorld
 {

@@ -1,11 +1,5 @@
 ﻿using Application.Common.Caching;
 using Domain.Entities.NewWorld;
-using Mediator;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.NewWorld.Locale
 {
@@ -36,7 +30,7 @@ namespace Application.NewWorld.Locale
                 cacheService.Set("Locales", cachedLocales);
             }
 
-            for(var i = 0; i < request.Items.Count; i++)
+            for (var i = 0; i < request.Items.Count; i++)
             {
                 request.Items[i].MasterName = GetName("", request.Items[i].Name ?? "", request.Items[i].ItemID ?? "");
                 request.Items[i].MasterDescription = GetName("", request.Items[i].Description ?? "", request.Items[i].ItemID ?? "");

@@ -1,6 +1,5 @@
 ﻿using Application.Common.Exceptions;
 using Application.Identity.Users;
-using Domain.Identity;
 using Microsoft.EntityFrameworkCore;
 using Share.Authorization;
 using Share.Multitenancy;

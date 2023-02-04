@@ -1,6 +1,4 @@
-﻿using Application.Common.Models;
-
-namespace Application.Common.Specification;
+﻿namespace Application.Common.Specification;
 
 public class EntitiesByPaginationFilterSpec<T, TResult> : EntitiesByBaseFilterSpec<T, TResult>
 {

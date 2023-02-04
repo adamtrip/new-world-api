@@ -8,13 +8,7 @@ using Domain.Entities.NewWorld.DamageData;
 using Domain.Entities.NewWorld.SpellData;
 using Domain.Entities.NewWorld.StatusEffectData;
 using DynamicExpresso;
-using Microsoft.Extensions.Caching.Memory;
-using System;
-using System.Collections.Generic;
 using System.Dynamic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Infrastructure.DynamicEvaluator
 {

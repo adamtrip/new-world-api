@@ -1,5 +1,3 @@
-using Mediator;
-
 namespace Application.Multitenancy;
 
 public class UpdateTenantRequest : IRequest<string>

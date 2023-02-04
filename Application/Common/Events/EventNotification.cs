@@ -1,5 +1,3 @@
-using Share.Events;
-
 namespace Application.Common.Events;
 
 public class EventNotification<IEvent> : INotification

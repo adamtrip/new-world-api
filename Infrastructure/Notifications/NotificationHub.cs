@@ -1,6 +1,6 @@
-﻿using Finbuckle.MultiTenant;
-using Application.Common.Exceptions;
+﻿using Application.Common.Exceptions;
 using Application.Common.Interfaces;
+using Finbuckle.MultiTenant;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.Logging;

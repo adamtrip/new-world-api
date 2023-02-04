@@ -1,10 +1,10 @@
-using Finbuckle.MultiTenant;
 using Application.Common.Events;
 using Application.Common.Interfaces;
+using Finbuckle.MultiTenant;
+using Infrastructure.Identity;
 using Infrastructure.Persistence.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
-using Infrastructure.Identity;
 
 namespace Infrastructure.Persistence.Context;
 

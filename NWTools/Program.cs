@@ -1,8 +1,6 @@
 using Application;
 using FluentValidation.AspNetCore;
 using Infrastructure;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using NWTools.Configurations;
 using NWTools.ServiceBuilders;
 

@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using Application.Common.DynamicEvaluator;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using Application.Common.DynamicEvaluator;
 
 namespace Application.NewWorld.PerkData
 {
@@ -25,7 +20,7 @@ namespace Application.NewWorld.PerkData
 
             Regex rx = new Regex(@"(?<=\{\[)(.*?)(?=\]\})");
             var regexResult = rx.Matches(request.Description);
-            foreach(var match in regexResult)
+            foreach (var match in regexResult)
             {
                 var evalExpress = match.ToString() ?? "";
                 var desc = await Eval(evalExpress, request.Description, request.ScalingPerGearScore);
@@ -44,7 +39,7 @@ namespace Application.NewWorld.PerkData
                 var tmpEvalExpress = evalExpress.Replace("{perkMultiplier}", "1").Replace("[", "").Replace("]", "");
                 try
                 {
-                    var evaluated = await dynamicEvaluator.EvaluateExpression(tmpEvalExpress); 
+                    var evaluated = await dynamicEvaluator.EvaluateExpression(tmpEvalExpress);
                     var baseValue = Convert.ToDouble(evaluated);
                     return baseValue.ToString() + " * {perkMultiplier}";
                 }
@@ -55,7 +50,7 @@ namespace Application.NewWorld.PerkData
                     var baseValue = Convert.ToDouble(evaluated);
                     return baseValue.ToString() + " * {perkMultiplier}";
                 }
-                
+
             }
             else
             {
@@ -67,5 +62,5 @@ namespace Application.NewWorld.PerkData
         }
     }
 
-    
+
 }

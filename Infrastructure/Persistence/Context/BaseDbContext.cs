@@ -1,14 +1,14 @@
-using System.Data;
-using Finbuckle.MultiTenant;
 using Application.Common.Events;
 using Application.Common.Interfaces;
 using Domain.Common.Contracts;
+using Finbuckle.MultiTenant;
 using Infrastructure.Auditing;
 using Infrastructure.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.Extensions.Options;
+using System.Data;
 
 namespace Infrastructure.Persistence.Context;
 

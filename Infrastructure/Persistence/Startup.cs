@@ -66,9 +66,9 @@ internal static class Startup
                         });
 
             case DbProviderKeys.MySql:
-               return builder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString), e =>
-                    e.MigrationsAssembly("Migrators.MySQL")
-                     .SchemaBehavior(MySqlSchemaBehavior.Ignore));
+                return builder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString), e =>
+                     e.MigrationsAssembly("Migrators.MySQL")
+                      .SchemaBehavior(MySqlSchemaBehavior.Ignore));
 
             //case DbProviderKeys.Oracle:
             //    return builder.UseOracle(connectionString, e =>

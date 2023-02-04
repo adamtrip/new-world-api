@@ -1,16 +1,7 @@
 ﻿using Application.Common.Caching;
-using Application.Common.Persistence;
-using Application.NewWorld.MasterItemDefinitions;
-using Domain.Entities.NewWorld;
 using Domain.Entities.NewWorld.PerkData;
 using Mapster;
-using Mediator;
 using Share.Caching;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.NewWorld.PerkData
 {

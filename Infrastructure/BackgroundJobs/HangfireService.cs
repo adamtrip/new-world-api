@@ -1,6 +1,6 @@
-using System.Linq.Expressions;
 using Application.Common.Interfaces;
 using Hangfire;
+using System.Linq.Expressions;
 
 namespace Infrastructure.BackgroundJobs;
 

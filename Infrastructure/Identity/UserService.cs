@@ -1,6 +1,3 @@
-using Ardalis.Specification;
-using Ardalis.Specification.EntityFrameworkCore;
-using Finbuckle.MultiTenant;
 using Application.Common.Caching;
 using Application.Common.Events;
 using Application.Common.Exceptions;
@@ -10,8 +7,12 @@ using Application.Common.Mailing;
 using Application.Common.Models;
 using Application.Common.Specification;
 using Application.Identity.Users;
+using Ardalis.Specification;
+using Ardalis.Specification.EntityFrameworkCore;
 using Domain.Identity;
+using Finbuckle.MultiTenant;
 using Infrastructure.Auth;
+using Infrastructure.Multitenancy;
 using Infrastructure.Persistence.Context;
 using Mapster;
 using Microsoft.AspNetCore.Identity;
@@ -19,7 +20,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Options;
 using Share.Authorization;
-using Infrastructure.Multitenancy;
 
 namespace Infrastructure.Identity;
 

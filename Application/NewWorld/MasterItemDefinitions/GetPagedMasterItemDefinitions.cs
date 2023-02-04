@@ -1,17 +1,7 @@
 ﻿using Application.Common.Caching;
-using Application.NewWorld.Locale;
 using Application.NewWorld.PerkBucketData;
 using Application.NewWorld.PerkData;
-using Application.NewWorld.WeaponItemDefs;
 using Domain.Entities.NewWorld;
-using Mapster;
-using MapsterMapper;
-using Share.Caching;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.NewWorld.MasterItemDefinitions
 {

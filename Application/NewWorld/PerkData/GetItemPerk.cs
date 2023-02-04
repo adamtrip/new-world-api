@@ -1,11 +1,6 @@
 ﻿using Application.Common.Caching;
 using Application.NewWorld.AffixStatData;
 using Domain.Entities.NewWorld.PerkData;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.NewWorld.PerkData
 {
@@ -28,7 +23,7 @@ namespace Application.NewWorld.PerkData
         {
             var cacheKey = $"itemperk_{request.GamePerkId}";
             var perk = await cacheService.GetAsync<ItemPerkDto>(cacheKey, cancellationToken);
-            if(perk == null)
+            if (perk == null)
             {
                 perk = await readRepository.SingleOrDefaultAsync(new GetItemPerkSpec(request.GamePerkId), cancellationToken);
                 if (!string.IsNullOrEmpty(perk?.Affix)) perk.AffixStatData = await mediator.Send(new GetAffixStatDataRequest(perk.Affix), cancellationToken);
@@ -36,7 +31,7 @@ namespace Application.NewWorld.PerkData
 
             return perk;
         }
-        
+
     }
 
     internal class GetItemPerkSpec : SingleResultSpecification<ItemPerk, ItemPerkDto>, ISingleResultSpecification

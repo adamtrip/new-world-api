@@ -1,6 +1,6 @@
-using System.Text;
 using Application.Common.Mailing;
 using RazorEngineCore;
+using System.Text;
 
 namespace Infrastructure.Mailing;
 

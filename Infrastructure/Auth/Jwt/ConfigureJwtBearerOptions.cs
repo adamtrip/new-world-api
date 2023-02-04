@@ -1,9 +1,9 @@
-﻿using System.Security.Claims;
-using System.Text;
-using Application.Common.Exceptions;
+﻿using Application.Common.Exceptions;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using System.Security.Claims;
+using System.Text;
 
 namespace Infrastructure.Auth.Jwt;
 

@@ -9,11 +9,6 @@ using Application.NewWorld.PerkData;
 using Application.NewWorld.SpellData;
 using Application.NewWorld.StatusEffectData;
 using Application.NewWorld.WeaponItemDefs;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.NewWorld.Importer
 {

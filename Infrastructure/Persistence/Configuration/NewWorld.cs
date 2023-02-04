@@ -1,21 +1,15 @@
-﻿using Infrastructure.Identity;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Domain.Entities.NewWorld;
+﻿using Domain.Entities.NewWorld;
 using Domain.Entities.NewWorld.AbilityData;
 using Domain.Entities.NewWorld.AffixStatData;
 using Domain.Entities.NewWorld.ConsumableItemDefinitions;
 using Domain.Entities.NewWorld.DamageData;
 using Domain.Entities.NewWorld.PerkBucketData;
+using Domain.Entities.NewWorld.PerkData;
 using Domain.Entities.NewWorld.SpellData;
 using Domain.Entities.NewWorld.StatusEffectData;
 using Domain.Entities.NewWorld.WeaponItemDefinitions;
-using Domain.Entities.NewWorld.PerkData;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Infrastructure.Persistence.Configuration
 {
@@ -29,7 +23,7 @@ namespace Infrastructure.Persistence.Configuration
             builder.HasIndex(x => x.ItemID).IsUnique(false);
             builder.ToTable("MasterItemDefinitions", SchemaNames.NewWorld);
         }
-            
+
     }
 
     public class ItemPerkConfig : IEntityTypeConfiguration<ItemPerk>
