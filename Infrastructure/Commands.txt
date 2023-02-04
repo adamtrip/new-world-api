@@ -1,0 +1,5 @@
+﻿dotnet ef migrations add Initial --context ApplicationDbContext --project .././Infrastructure/ -o Migrations/Application
+dotnet ef database update --context ApplicationDbContext
+
+dotnet ef migrations add Initial --context TenantDbContext --project .././Infrastructure/ -o Migrations/Tenants
+dotnet ef database update --context TenantDbContext

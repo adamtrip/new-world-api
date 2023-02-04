@@ -1,0 +1,10 @@
+{
+  "MailSettings": {
+    "DisplayName": "Central Service",
+    "From": "central-service@prplex.pt",
+    "Host": "prplex.pt",
+    "Password": "hdcF4$977",
+    "Port": 465,
+    "UserName": "central-service@prplex.pt"
+  }
+}
