@@ -17,7 +17,7 @@ Then run the Importer endpoint to parse the data from the JSON files into the da
 **Feel free to contibute to the project.** I don't have the time to maintain and develop it within reasonable time, that beeing the main purpose making this publicly available.
 If you intend to **create some sort of frontend** using this, feel free to reach out in order to improve security or some other tweaks needed in the API.
 
-# Current Status | 4th Fev 2023
+# Current Status | 4th Feb 2023
 This project is still very early and it does not contain all of the data of the game. It has the basics for now.
 Besides that, it needs a lot of improvement in the **Import** part and some other areas of the code.
  - Items
