@@ -1,11 +1,10 @@
-using System.Text;
 using Application.Common.Caching;
 using Application.Common.Interfaces;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Caching.Distributed;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using System.Text;
 
 namespace Infrastructure.Caching;
 

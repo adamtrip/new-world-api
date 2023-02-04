@@ -1,11 +1,9 @@
-﻿using Ardalis.Specification;
+﻿using Application.Common.Persistence;
+using Ardalis.Specification;
 using Ardalis.Specification.EntityFrameworkCore;
-using Application.Common.Persistence;
 using Domain.Common.Contracts;
 using Infrastructure.Persistence.Context;
 using Mapster;
-using System.Linq.Expressions;
-using System.Linq;
 
 namespace Infrastructure.Persistence.Repository;
 

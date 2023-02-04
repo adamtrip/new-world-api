@@ -1,7 +1,4 @@
-using System.Reflection;
-using System.Runtime.CompilerServices;
 using Infrastructure.Auth;
-using Infrastructure.Auth.Permissions;
 using Infrastructure.BackgroundJobs;
 using Infrastructure.Caching;
 using Infrastructure.Common;
@@ -10,7 +7,6 @@ using Infrastructure.DynamicEvaluator;
 using Infrastructure.FileStorage;
 using Infrastructure.Localization;
 using Infrastructure.Mailing;
-using Infrastructure.Mapping;
 using Infrastructure.Middleware;
 using Infrastructure.Multitenancy;
 using Infrastructure.Notifications;
@@ -18,14 +14,13 @@ using Infrastructure.OpenApi;
 using Infrastructure.Persistence;
 using Infrastructure.Persistence.Initialization;
 using Infrastructure.SecurityHeaders;
-using Mapster;
-using Mediator;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System.Runtime.CompilerServices;
 
 [assembly: InternalsVisibleTo("Infrastructure.Test")]
 

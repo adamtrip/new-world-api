@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Application.Common.Interfaces;
-using Application.Common.Reflection;
-using Domain.Entities.NewWorld.AffixStatData;
+﻿using Application.Common.Reflection;
 using Domain.Entities.NewWorld.ConsumableItemDefinitions;
 
 namespace Application.NewWorld.ConsumableItem

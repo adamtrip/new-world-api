@@ -1,6 +1,4 @@
-﻿using Application.Common.Interfaces;
-
-namespace Application.Common.Caching;
+﻿namespace Application.Common.Caching;
 
 public interface ICacheKeyService : IScopedService
 {

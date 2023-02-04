@@ -1,13 +1,6 @@
-﻿using Application.Common.Interfaces;
-using Application.Common.Reflection;
-using Domain.Entities.NewWorld;
+﻿using Application.Common.Reflection;
 using Domain.Entities.NewWorld.AbilityData;
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.NewWorld.AbilityData
 {

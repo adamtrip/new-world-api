@@ -1,7 +1,4 @@
-﻿using Application.Common.Models;
-using Ardalis.Specification;
-
-namespace Application.Common.Specification;
+﻿namespace Application.Common.Specification;
 
 public class EntitiesByBaseFilterSpec<T, TResult> : Specification<T, TResult>
 {

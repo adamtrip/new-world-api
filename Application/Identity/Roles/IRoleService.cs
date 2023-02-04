@@ -1,5 +1,3 @@
-using Application.Common.Interfaces;
-
 namespace Application.Identity.Roles;
 
 public interface IRoleService : ITransientService

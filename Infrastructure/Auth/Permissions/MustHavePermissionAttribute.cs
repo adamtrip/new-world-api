@@ -1,16 +1,10 @@
 using Application.Identity.Users;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc.Filters;
-using Microsoft.AspNetCore.Mvc;
-using Share.Authorization;
-using HotChocolate.Types.Descriptors;
-using HotChocolate.Types;
-using System.Reflection;
 using HotChocolate.AspNetCore.Authorization;
 using HotChocolate.Resolvers;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
+using Share.Authorization;
 
 namespace Infrastructure.Auth.Permissions;
 
@@ -73,7 +67,7 @@ public class GraphQLAuthorizationHandler : HotChocolate.AspNetCore.Authorization
             if (await userService.HasAPITokenAcess(userId)) authorizeResult = AuthorizeResult.Allowed;
             else authorizeResult = AuthorizeResult.NotAllowed;
         }
-        else 
+        else
             authorizeResult = AuthorizeResult.NotAllowed;
 
         return await Task.FromResult(((Func<AuthorizeResult>)(() =>

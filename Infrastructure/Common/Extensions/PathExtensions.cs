@@ -1,5 +1,5 @@
-using System.Text;
 using Microsoft.Extensions.Primitives;
+using System.Text;
 
 namespace Infrastructure.Common.Extensions;
 

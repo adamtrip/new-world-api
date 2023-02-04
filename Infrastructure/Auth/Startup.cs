@@ -1,5 +1,4 @@
 using Application.Common.Interfaces;
-using Infrastructure.Auth.AzureAd;
 using Infrastructure.Auth.Jwt;
 using Infrastructure.Auth.Permissions;
 using Infrastructure.Identity;

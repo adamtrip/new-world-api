@@ -1,12 +1,4 @@
-﻿using Domain.Entities.NewWorld.PerkBucketData;
-using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Application.NewWorld.PerkBucketData
+﻿namespace Application.NewWorld.PerkBucketData
 {
 
     public class PerkBucketDataDto

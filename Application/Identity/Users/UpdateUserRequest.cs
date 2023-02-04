@@ -1,5 +1,3 @@
-using Application.Common.FileStorage;
-
 namespace Application.Identity.Users;
 
 public class UpdateUserRequest

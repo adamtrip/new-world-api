@@ -1,9 +1,4 @@
 ﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Domain.Entities.NewWorld.AbilityData
 {
@@ -106,7 +101,7 @@ namespace Domain.Entities.NewWorld.AbilityData
         public double? CritDamage { get; set; }
         public double? CritChance { get; set; }
         public string HeadshotDamage { get; set; }
-        
+
         [JsonProperty("stagger damage")]
         public string? staggerdamage { get; set; }
         public string StaggerDamageReduction { get; set; }

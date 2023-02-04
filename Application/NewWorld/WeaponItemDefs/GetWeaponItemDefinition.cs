@@ -1,12 +1,4 @@
-﻿using Application.NewWorld.AffixStatData;
-using Application.NewWorld.PerkData;
-using Domain.Entities.NewWorld.PerkData;
-using Domain.Entities.NewWorld.WeaponItemDefinitions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Domain.Entities.NewWorld.WeaponItemDefinitions;
 
 namespace Application.NewWorld.WeaponItemDefs
 {

@@ -1,6 +1,4 @@
-﻿using Mapster;
-
-namespace Infrastructure.Mapping;
+﻿namespace Infrastructure.Mapping;
 
 public class MapsterSettings
 {

@@ -1,5 +1,5 @@
-﻿using HotChocolate.Execution.Instrumentation;
-using HotChocolate.Execution;
+﻿using HotChocolate.Execution;
+using HotChocolate.Execution.Instrumentation;
 using System.Diagnostics;
 using System.Text;
 

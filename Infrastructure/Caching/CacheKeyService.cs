@@ -1,5 +1,5 @@
-﻿using Finbuckle.MultiTenant;
-using Application.Common.Caching;
+﻿using Application.Common.Caching;
+using Finbuckle.MultiTenant;
 
 namespace Infrastructure.Caching;
 

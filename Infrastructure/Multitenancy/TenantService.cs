@@ -1,7 +1,7 @@
-﻿using Finbuckle.MultiTenant;
-using Application.Common.Exceptions;
+﻿using Application.Common.Exceptions;
 using Application.Common.Persistence;
 using Application.Multitenancy;
+using Finbuckle.MultiTenant;
 using Infrastructure.Persistence;
 using Infrastructure.Persistence.Initialization;
 using Mapster;

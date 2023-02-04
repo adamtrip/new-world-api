@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Options;
-using Share.Authorization;
 
 namespace Infrastructure.Auth.Permissions
 {

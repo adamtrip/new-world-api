@@ -1,13 +1,6 @@
 ﻿using Application.Common.Reflection;
 using Application.NewWorld.Locale;
 using Domain.Entities.NewWorld;
-using Mapster;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.NewWorld.MasterItemDefinitions
 {
@@ -48,7 +41,7 @@ namespace Application.NewWorld.MasterItemDefinitions
 
                 objectData.ForEach(x => x.ItemFileType = masterItemType);
                 objectData.ForEach(x => x.IsDepricated = fileName.Contains("Depricated", StringComparison.InvariantCultureIgnoreCase) ? true : false);
-                
+
                 items.AddRange(objectData);
             }
 

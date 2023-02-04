@@ -1,6 +1,3 @@
-using Application.Common.Validation;
-using FluentValidation;
-
 namespace Application.Identity.Tokens;
 
 public record TokenRequest(string Email, string Password);

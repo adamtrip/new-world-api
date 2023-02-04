@@ -1,6 +1,4 @@
-﻿using Mediator;
-
-namespace Application.Multitenancy;
+﻿namespace Application.Multitenancy;
 
 public class GetAllTenantsRequest : IRequest<List<TenantDto>>
 {

@@ -1,18 +1,7 @@
 ﻿using Application.Common.Caching;
-using Application.NewWorld.MasterItemDefinitions;
 using Application.NewWorld.PerkData;
 using Domain.Entities.NewWorld.PerkBucketData;
-using Domain.Entities.NewWorld.PerkData;
-using Mapster;
-using Mediator;
-using Share.Caching;
-using System;
 using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace Application.NewWorld.PerkBucketData
 {

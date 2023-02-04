@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Domain.Entities.NewWorld.ConsumableItemDefinitions
+﻿namespace Domain.Entities.NewWorld.ConsumableItemDefinitions
 {
     public class ConsumableItemDefinitions : AuditableEntity, IAggregateRoot
     {

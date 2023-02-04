@@ -1,7 +1,7 @@
 ﻿using Finbuckle.MultiTenant;
-using Infrastructure.Common;
 using Hangfire.Client;
 using Hangfire.Logging;
+using Infrastructure.Common;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Share.Authorization;

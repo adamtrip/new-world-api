@@ -1,10 +1,10 @@
-using System.Net;
 using Application.Common.Exceptions;
 using Application.Common.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Localization;
 using Serilog;
 using Serilog.Context;
+using System.Net;
 
 namespace Infrastructure.Middleware;
 

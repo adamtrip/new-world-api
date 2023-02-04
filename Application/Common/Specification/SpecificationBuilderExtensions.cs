@@ -1,6 +1,4 @@
-﻿using Application.Common.Models;
-using Ardalis.Specification;
-using System.Linq.Expressions;
+﻿using System.Linq.Expressions;
 using System.Reflection;
 using System.Text.Json;
 

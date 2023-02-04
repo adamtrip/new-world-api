@@ -1,13 +1,5 @@
-﻿using Application.Common.Persistence;
-using Application.Common.Reflection;
-using Domain.Entities.NewWorld.ConsumableItemDefinitions;
+﻿using Application.Common.Reflection;
 using Domain.Entities.NewWorld.PerkBucketData;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Application.NewWorld.PerkBucketData
 {
@@ -75,7 +67,7 @@ namespace Application.NewWorld.PerkBucketData
 
             foreach (var item in obj)
             {
-                while(item.Perks.Where(x => x.PerkId.StartsWith("[")).Count() > 0)
+                while (item.Perks.Where(x => x.PerkId.StartsWith("[")).Count() > 0)
                 {
                     foreach (var itemm in item.Perks)
                     {

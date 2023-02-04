@@ -1,6 +1,6 @@
-using System.Security.Claims;
 using Application.Common.Interfaces;
 using Share.Authorization;
+using System.Security.Claims;
 
 namespace Infrastructure.Auth;
 

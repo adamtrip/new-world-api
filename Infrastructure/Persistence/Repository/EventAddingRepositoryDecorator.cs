@@ -1,5 +1,5 @@
-﻿using Ardalis.Specification;
-using Application.Common.Persistence;
+﻿using Application.Common.Persistence;
+using Ardalis.Specification;
 using Domain.Common.Contracts;
 using Domain.Common.Events;
 

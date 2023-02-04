@@ -1,6 +1,4 @@
-﻿using System.Linq.Expressions;
-
-namespace Application.Common.Persistence;
+﻿namespace Application.Common.Persistence;
 
 // The Repository for the Application Db
 // I(Read)RepositoryBase<T> is from Ardalis.Specification

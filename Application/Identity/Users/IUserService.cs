@@ -1,5 +1,3 @@
-using Application.Common.Interfaces;
-using Application.Common.Models;
 using Application.Identity.Users.Password;
 using System.Security.Claims;
 

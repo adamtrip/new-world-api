@@ -1,12 +1,5 @@
-﻿using Application.Common.Interfaces;
-using Application.NewWorld.MasterItemDefinitions;
-using Domain.Entities.NewWorld;
+﻿using Domain.Entities.NewWorld;
 using Mapster;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.NewWorld.Locale
 {

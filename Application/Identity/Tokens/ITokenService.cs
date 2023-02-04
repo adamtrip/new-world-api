@@ -1,5 +1,3 @@
-
-using Application.Common.Interfaces;
 using Application.Identity.Tokens;
 using System.Security.Claims;
 

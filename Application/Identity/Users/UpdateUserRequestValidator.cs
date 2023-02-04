@@ -1,6 +1,3 @@
-using Application.Common.Validation;
-using FluentValidation;
-
 namespace Application.Identity.Users;
 
 public class UpdateUserRequestValidator : CustomValidator<UpdateUserRequest>

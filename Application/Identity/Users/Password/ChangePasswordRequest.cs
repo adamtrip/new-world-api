@@ -1,6 +1,3 @@
-using Application.Common.Validation;
-using FluentValidation;
-
 namespace Application.Identity.Users.Password;
 
 public class ChangePasswordRequest

@@ -1,5 +1,3 @@
-using Share.Events;
-
 namespace Application.Common.Events;
 
 public interface IEventPublisher : ITransientService

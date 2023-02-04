@@ -1,7 +1,3 @@
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Security.Cryptography;
-using System.Text;
 using Application.Common.Exceptions;
 using Application.Identity.Tokens;
 using Infrastructure.Auth;
@@ -13,6 +9,10 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Share.Authorization;
 using Share.Multitenancy;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace Infrastructure.Identity;
 
@@ -106,12 +106,12 @@ internal class TokenService : ITokenService
 
     private string GenerateJwt(ApplicationUser user, string ipAddress)
     {
-        if(user.Email == "nwtools.admin@adamtrip.pt")
+        if (user.Email == "nwtools.admin@adamtrip.pt")
             return GenerateEncryptedToken(GetSigningCredentials(), GetClaims(user, ipAddress), DateTime.UtcNow.AddYears(5));
         else
             return GenerateEncryptedToken(GetSigningCredentials(), GetClaims(user, ipAddress));
     }
-        
+
 
     private IEnumerable<Claim> GetClaims(ApplicationUser user, string ipAddress) =>
         new List<Claim>

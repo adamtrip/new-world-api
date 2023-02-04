@@ -1,5 +1,4 @@
-﻿using System.Security.Claims;
-using Application.Common.Exceptions;
+﻿using Application.Common.Exceptions;
 using Application.Common.Mailing;
 using Application.Identity.Users;
 using Domain.Common;
@@ -8,6 +7,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Web;
 using Share.Authorization;
+using System.Security.Claims;
 
 namespace Infrastructure.Identity;
 
